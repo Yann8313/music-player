@@ -6,7 +6,6 @@ const Song = () => {
         <div className="song-container">
             <h1>Picture</h1>
             <h1>Song Name</h1>
-            <h2>Hi</h2>
             <h1>Artist</h1>
         </div>
     )
