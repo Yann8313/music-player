@@ -8,7 +8,7 @@ const Player = () => {
             <div className="time-control">
                 <p>Start time</p>
                 <input type="range"/>
-                <p>End time</p>
+                <p>End</p>
 
             </div>
             <div className="play-control">
