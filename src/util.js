@@ -1,4 +1,5 @@
-import { v4 as uuidv4 } from "uuid";
+import {v4 as uuidv4} from "uuid";
+
 function chillHop() {
     return [
         {
@@ -61,7 +62,16 @@ function chillHop() {
             id: uuidv4(),
             active: false,
         },
-        //ADD MORE HERE
+        {
+            name: "Wildlife",
+            artist: "Philanthrope",
+            cover:"https://chillhop.com/wp-content/uploads/2020/09/2899f7cc22ab12e17d0119819aac3ca9dbab46e6-300x300.jpg",
+            id: uuidv4(),
+            active: false,
+            color:["#AF6D52","#191919" ],
+            audio: "https://mp3.chillhop.com/serve.php/?mp3=10242",
+
+        }
     ];
 }
 
